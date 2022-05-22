@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  db:
+    container_name: psql
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=greenlight
+      - POSTGRES_PASSWORD=greenlight
+      - POSTGRES_DB=greenlight
+    ports:
+      - 5432:5432
+    volumes:
+      - ./pg_data:/var/lib/postgresql/data/
