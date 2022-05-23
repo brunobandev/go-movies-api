@@ -1,3 +1,4 @@
 .vscode
+.idea
 pg_data
 bin
