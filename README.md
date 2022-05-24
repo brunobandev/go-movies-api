@@ -1,0 +1,1 @@
+use `brew install golang-migrate` to generate and run migrations.

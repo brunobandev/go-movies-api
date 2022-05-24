@@ -9,6 +9,6 @@ services:
       - POSTGRES_PASSWORD=greenlight
       - POSTGRES_DB=greenlight
     ports:
-      - 5432:5432
+      - 5433:5432
     volumes:
       - ./pg_data:/var/lib/postgresql/data/
